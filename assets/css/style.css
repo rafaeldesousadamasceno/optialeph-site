@@ -97,6 +97,24 @@ p { margin: 0 0 1em; }
 
 .caixa-preco { max-width: 860px; margin: 0 auto; }
 
+/* Planos */
+.selo-lanc { text-align: center; margin: 0 auto 20px; background: var(--navy); color: #fff; display: table; padding: 6px 18px; border-radius: 999px; font-size: .92rem; }
+.planos { max-width: 860px; margin: 0 auto 20px; align-items: stretch; }
+.plano { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; display: flex; flex-direction: column; }
+.plano--dest { border: 2px solid var(--teal); box-shadow: var(--shadow); }
+.plano h3 { font-size: 1.3rem; margin-bottom: .3em; }
+.plano__tag { align-self: flex-start; background: var(--teal); color: #fff; font-size: .8rem; font-weight: 600; padding: 3px 12px; border-radius: 999px; margin: 0 0 12px; }
+.plano__tag--suave { background: var(--bg-alt); color: var(--navy); }
+.plano__de { color: var(--muted); text-decoration: line-through; margin: 0; }
+.plano__preco { margin: 0; color: var(--navy); }
+.plano__preco strong { font-size: 2.4rem; letter-spacing: -.02em; }
+.plano__preco span { color: var(--muted); }
+.plano__mes { color: var(--muted); margin: 0 0 16px; }
+.plano .check { flex: 1; }
+.inclui { margin-top: 0; margin-bottom: 20px; }
+.inclui .check { margin-bottom: 0; }
+.nota--centro { max-width: 860px; margin: 0 auto; }
+
 /* Dois blocos */
 .dois { display: grid; grid-template-columns: 1fr 1.2fr; gap: 48px; align-items: center; }
 .dois--inv { grid-template-columns: 1.2fr 1fr; }
@@ -150,6 +168,7 @@ p { margin: 0 0 1em; }
 .rodape { background: var(--navy-2); color: #c3d3e0; padding: 40px 0; }
 .marca--rodape { color: #fff; margin-bottom: 8px; }
 .rodape p { margin: 0 0 6px; }
+.rodape a:not(.marca), .cta__nota a { color: #fff; text-decoration: underline; }
 .rodape__peq { font-size: .85rem; color: #8fa6b8; }
 
 /* Responsivo */
