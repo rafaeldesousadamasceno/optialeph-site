@@ -5,5 +5,5 @@
 // Enquanto estiver vazio, os botões levam para a seção de contato e o site
 // avisa que o número ainda não foi configurado.
 window.OPTIALEPH = {
-  whatsapp: "",
+  whatsapp: "5585996429132",
 };
